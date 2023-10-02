@@ -44,11 +44,12 @@ header {
 }
 
 
-.hero-banner {
-    position: relative;
+.hero-banner img {
     width: 100%;
     height: auto;
+    display: block;
 }
+
 
 .banner-content {
     position: relative;
