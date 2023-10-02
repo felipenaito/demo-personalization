@@ -19,9 +19,24 @@ header {
     margin-top: 10px;
 }
 
-.hero-banner img {
+.hero-banner {
+    position: relative;
     width: 100%;
     height: auto;
+}
+
+.banner-content {
+    position: relative;
+}
+
+.banner-content h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 2em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* This adds a shadow to the text to make it more readable against the image */
 }
 
 .offers {
