@@ -27,6 +27,10 @@ header {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+.login-section label {
+    color: #333;  
+}
+
 .login-field {
     display: flex;
     flex-direction: column;
